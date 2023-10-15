@@ -5,7 +5,8 @@
 03 - prettier-plugin-tailwindcss(Automatic Class Sorting with Prettier)✅
 04 - install prisma/@prisma/client ✅
 05 - create database no supabase ✅
-06 - install next-auth/prisma-adapter
+06 - install next-auth/prisma-adapter ✅
+07 - configurar next-auth ⏳
 components
   - user-login-auth.tsx
   - user-register-auth.tsx
