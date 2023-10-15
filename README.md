@@ -3,6 +3,7 @@
 01 - create repository github ✅
 02 - config eslint rocketseat ✅
 03 - prettier-plugin-tailwindcss(Automatic Class Sorting with Prettier)✅
+05 - create database no supabase ✅
 components
   - user-login-auth.tsx
   - user-register-auth.tsx
@@ -38,7 +39,7 @@ tecnologias
   - typescript
   - nextauth
   - tailwind
-  - postegress/suprabase
+  - postegress/supabase
   - shadcn ui
   - prisma
   - bcrypt
