@@ -3,7 +3,9 @@
 01 - create repository github ✅
 02 - config eslint rocketseat ✅
 03 - prettier-plugin-tailwindcss(Automatic Class Sorting with Prettier)✅
+04 - install prisma/@prisma/client ✅
 05 - create database no supabase ✅
+06 - install next-auth/prisma-adapter
 components
   - user-login-auth.tsx
   - user-register-auth.tsx
