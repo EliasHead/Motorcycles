@@ -1,9 +1,6 @@
-import { Button } from '@/components/ui/button'
+import { getCurrentUser } from '@/lib/session'
 
-export default function Home() {
-  return (
-    <div className="m-12">
-      <Button variant="destructive">Home</Button>
-    </div>
-  )
+export default async function Home() {
+  const user = await getCurrentUser()
+  return <div>{JSON.stringify(user)}</div>
 }
