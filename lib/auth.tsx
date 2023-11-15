@@ -22,7 +22,7 @@ export const authOptions: NextAuthOptions = {
         username: { label: 'Name', type: 'text', placeholder: 'Elias Costa' },
       },
       async authorize(credentials, req): Promise<any> {
-        console.log('authorize method', credentials)
+        // console.log('authorize method', credentials)
 
         if (!credentials?.email || !credentials?.password)
           throw new Error('Dados de Login necessarios')
@@ -33,7 +33,7 @@ export const authOptions: NextAuthOptions = {
           },
         })
 
-        console.log('USER', user)
+        // console.log('USER', user)
 
         if (!user || !user.hashedPassword) {
           throw new Error('Usuários não registrado através de credenciais')
