@@ -5,6 +5,7 @@ import Link from 'next/link'
 import { Button, buttonVariants } from '@/components/ui/button'
 
 export default function AuthButton({ page }: { page: string }) {
+  // eslint-disable-next-line @typescript-eslint/no-unused-vars
   const { data: session, status } = useSession()
   const isAuthenticated = status === 'authenticated'
 
